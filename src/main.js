@@ -75,6 +75,7 @@ form.addEventListener('submit', async event => {
       }
       finally {
       hideLoader();
+      form.reset();
       }
   });
 
