@@ -138,3 +138,24 @@
     margin-left: 4px;
   }
   
+  /* Load mor btn */
+
+  .gallery-load-btn {
+    padding: 12px 24px;
+    font-size: 16px;
+    background: linear-gradient(to right, #90caf9, #f48fb1);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    display: block;
+    margin: 30px auto 0;
+  }
+  
+  .gallery-load-btn:hover {
+    background: linear-gradient(to right, #64b5f6, #f06292);
+  }
+  
+  .gallery-load-btn.hidden {
+    display: none;
+  }
